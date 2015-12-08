@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - GPUImage (0.1.7)
+  - IOSLinkedInAPI (2.0.0):
+    - AFNetworking (>= 2.0.0)
+  - KLCPopup (1.0)
+  - Reachability (3.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SevenSwitch (1.4.0)
+  - UIImage+BlurAndDarken (0.0.1)
+
+DEPENDENCIES:
+  - GPUImage
+  - IOSLinkedInAPI
+  - KLCPopup
+  - Reachability
+  - SDWebImage
+  - SevenSwitch (~> 1.4.0)
+  - UIImage+BlurAndDarken
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  IOSLinkedInAPI: d0adc664472d471b0df9b2aad92a2d82de926c40
+  KLCPopup: 76c5a19227977f1e53d85236f9ef42257c168d98
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SevenSwitch: e992e56e2e7f401eb00538b9fa92bf848bacbe27
+  UIImage+BlurAndDarken: eb0e831d1ed738a68c709fef4a6e2aa148143b6d
+
+COCOAPODS: 0.38.2

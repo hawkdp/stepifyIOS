@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="GEOMANIST-LIGHT.OTF">
+            <string>Geomanist-Light</string>
+            <string>Geomanist-Light</string>
+        </mutableArray>
+        <mutableArray key="GEOMANIST-REGULAR_0.OTF">
+            <string>Geomanist-Regular</string>
+            <string>Geomanist-Regular</string>
+            <string>Geomanist-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CLTextBoxView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView hidden="YES" alpha="0.84999999999999987" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0eO-Ju-HIt">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="GZo-Ms-Atw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <vibrancyEffect>
+                        <blurEffect style="dark"/>
+                    </vibrancyEffect>
+                </visualEffectView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d96-Ja-zLb">
+                    <rect key="frame" x="12" y="139" width="296" height="271"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have successfully changed your password." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T3w-tZ-YT5">
+                            <rect key="frame" x="56" y="71" width="184" height="99"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="99" id="Tgr-N3-oNj"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Geomanist-Light" family="Geomanist" pointSize="13"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Success!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kg3-Ol-nmz">
+                            <rect key="frame" x="20" y="18" width="256" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="57v-fb-0SK"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Geomanist-Light" family="Geomanist" pointSize="32"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kic-6i-1a9">
+                            <rect key="frame" x="90" y="199" width="116" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="bAR-pC-66t"/>
+                                <constraint firstAttribute="width" constant="116" id="wVr-xS-9N7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Geomanist-Regular" family="Geomanist" pointSize="13"/>
+                            <state key="normal" title="Dismiss">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="tapOnDismissButton" destination="iN0-l3-epB" eventType="touchUpInside" id="KQN-qk-gt8"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVs-qh-tLQ">
+                            <rect key="frame" x="16" y="199" width="116" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="NMr-y2-CdF"/>
+                                <constraint firstAttribute="width" constant="116" id="xVc-Vx-T7u"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Geomanist-Regular" family="Geomanist" pointSize="13"/>
+                            <state key="normal" title="No">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="noButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="vhJ-Ys-fK5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrz-fQ-PX7">
+                            <rect key="frame" x="164" y="199" width="116" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="116" id="QFD-yE-oxP"/>
+                                <constraint firstAttribute="height" constant="42" id="QWG-8Z-yHJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Geomanist-Regular" family="Geomanist" pointSize="13"/>
+                            <state key="normal" title="Yes">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="yesButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="fAP-s3-AkV"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0078400000929999998" green="0.52157002689999998" blue="0.64314001799999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="jrz-fQ-PX7" secondAttribute="bottom" constant="30" id="0Wu-0K-4bi"/>
+                        <constraint firstItem="T3w-tZ-YT5" firstAttribute="top" secondItem="Kg3-Ol-nmz" secondAttribute="bottom" constant="3" id="2ap-tX-xOe"/>
+                        <constraint firstAttribute="trailing" secondItem="T3w-tZ-YT5" secondAttribute="trailing" constant="56" id="C64-aG-8Ng"/>
+                        <constraint firstAttribute="bottom" secondItem="Kic-6i-1a9" secondAttribute="bottom" constant="30" id="DHt-os-dmF"/>
+                        <constraint firstAttribute="bottom" secondItem="gVs-qh-tLQ" secondAttribute="bottom" constant="30" id="DkJ-6R-uEw"/>
+                        <constraint firstItem="Kg3-Ol-nmz" firstAttribute="top" secondItem="d96-Ja-zLb" secondAttribute="top" constant="18" id="FgY-xZ-9H3"/>
+                        <constraint firstAttribute="trailing" secondItem="jrz-fQ-PX7" secondAttribute="trailing" constant="16" id="Hgz-uo-kbP"/>
+                        <constraint firstItem="T3w-tZ-YT5" firstAttribute="leading" secondItem="d96-Ja-zLb" secondAttribute="leading" constant="56" id="IBb-79-6I0"/>
+                        <constraint firstAttribute="trailing" secondItem="Kg3-Ol-nmz" secondAttribute="trailing" constant="20" id="Lyz-L3-nFm"/>
+                        <constraint firstAttribute="centerX" secondItem="Kic-6i-1a9" secondAttribute="centerX" id="MB9-Dh-pUJ"/>
+                        <constraint firstAttribute="height" constant="271" id="ftJ-as-BfI"/>
+                        <constraint firstItem="Kg3-Ol-nmz" firstAttribute="leading" secondItem="d96-Ja-zLb" secondAttribute="leading" constant="20" id="sGG-8d-NQL"/>
+                        <constraint firstItem="gVs-qh-tLQ" firstAttribute="leading" secondItem="d96-Ja-zLb" secondAttribute="leading" constant="16" id="tNA-X2-y2r"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="d96-Ja-zLb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="71j-aO-nCx"/>
+                <constraint firstItem="0eO-Ju-HIt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9Ty-9s-crh"/>
+                <constraint firstItem="0eO-Ju-HIt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Lsh-l6-Odi"/>
+                <constraint firstAttribute="centerY" secondItem="d96-Ja-zLb" secondAttribute="centerY" constant="9.5" id="M8S-bx-ShY"/>
+                <constraint firstAttribute="trailing" secondItem="0eO-Ju-HIt" secondAttribute="trailing" id="MIT-9f-9rc"/>
+                <constraint firstAttribute="trailing" secondItem="d96-Ja-zLb" secondAttribute="trailing" constant="12" id="gZh-sJ-w8F"/>
+                <constraint firstAttribute="bottom" secondItem="0eO-Ju-HIt" secondAttribute="bottom" id="ia0-fZ-cJ7"/>
+            </constraints>
+            <connections>
+                <outlet property="dismissButton" destination="Kic-6i-1a9" id="Wjl-WX-fta"/>
+                <outlet property="messageLabel" destination="T3w-tZ-YT5" id="L6Z-j7-JFW"/>
+                <outlet property="noButton" destination="gVs-qh-tLQ" id="KX3-7H-iBc"/>
+                <outlet property="popUpView" destination="d96-Ja-zLb" id="Pyp-Gp-V7h"/>
+                <outlet property="titleLabel" destination="Kg3-Ol-nmz" id="fa0-39-pgO"/>
+                <outlet property="yesButton" destination="jrz-fQ-PX7" id="onv-V4-abg"/>
+            </connections>
+            <point key="canvasLocation" x="338" y="395"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

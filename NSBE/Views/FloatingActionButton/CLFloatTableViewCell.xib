@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="66" id="KGk-i7-Jjw" customClass="CLFloatTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHT-3E-fmF">
+                        <rect key="frame" x="8" y="21" width="236" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="EXH-oH-XIs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E1s-bQ-czV">
+                        <rect key="frame" x="252" y="3" width="60" height="60"/>
+                        <color key="backgroundColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="DFO-F6-Wqj"/>
+                            <constraint firstAttribute="width" constant="60" id="yiy-lg-GNT"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="E1s-bQ-czV" firstAttribute="leading" secondItem="lHT-3E-fmF" secondAttribute="trailing" constant="8" id="0aV-ts-o7M"/>
+                    <constraint firstAttribute="centerY" secondItem="E1s-bQ-czV" secondAttribute="centerY" id="7q3-cl-1kW"/>
+                    <constraint firstItem="lHT-3E-fmF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="U8k-hh-lgW"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="E1s-bQ-czV" secondAttribute="trailing" id="W6j-Di-DHI"/>
+                    <constraint firstItem="E1s-bQ-czV" firstAttribute="centerY" secondItem="lHT-3E-fmF" secondAttribute="centerY" id="X4Y-tc-B9w"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgView" destination="E1s-bQ-czV" id="jOD-lj-O59"/>
+                <outlet property="title" destination="lHT-3E-fmF" id="pjy-fk-h8P"/>
+            </connections>
+            <point key="canvasLocation" x="565" y="325"/>
+        </tableViewCell>
+    </objects>
+</document>

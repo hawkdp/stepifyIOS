@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="GEOMANIST-BOOK.OTF">
+            <string>Geomanist-Book</string>
+            <string>Geomanist-Book</string>
+        </mutableArray>
+        <mutableArray key="GEOMANIST-LIGHT.OTF">
+            <string>Geomanist-Light</string>
+            <string>Geomanist-Light</string>
+            <string>Geomanist-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CLGameRulesThirdViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AIK-U0-Fxc" userLabel="Game Rules View 3">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jc1-Oy-Hav" userLabel="Transparent Border View">
+                            <rect key="frame" x="20" y="126" width="280" height="316"/>
+                            <color key="backgroundColor" red="0.0" green="0.56862745100000001" blue="0.70196078429999997" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="280" id="SHc-wa-vhW"/>
+                                <constraint firstAttribute="height" constant="316" id="XXN-ao-tq0"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uE7-w5-daT" userLabel="Info View">
+                            <rect key="frame" x="26" y="132" width="268" height="304"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game rules" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ace-AI-N18">
+                                    <rect key="frame" x="14" y="26" width="240" height="21"/>
+                                    <fontDescription key="fontDescription" name="Geomanist-Book" family="Geomanist" pointSize="13"/>
+                                    <color key="textColor" red="0.18823529410000001" green="0.2156862745" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </label>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vPE-sb-57S" userLabel="Line View">
+                                    <rect key="frame" x="123" y="56" width="22" height="1"/>
+                                    <color key="backgroundColor" red="0.0" green="0.56862745100000001" blue="0.70196078429999997" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contest Conditions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5y-Tc-4fj">
+                                    <rect key="frame" x="14" y="72" width="240" height="24"/>
+                                    <fontDescription key="fontDescription" name="Geomanist-Light" family="Geomanist" pointSize="26"/>
+                                    <color key="textColor" red="0.3921568627" green="0.4039215686" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jWU-kt-EfE" userLabel="Rule View">
+                                    <rect key="frame" x="9" y="112" width="250" height="140"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steps Challenge is open to all" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s62-it-L3z">
+                                            <rect key="frame" x="0.0" y="36" width="250" height="14"/>
+                                            <fontDescription key="fontDescription" name="Geomanist-Light" family="Geomanist" pointSize="13"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Take A Health Step app users." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOW-f9-xUf">
+                                            <rect key="frame" x="0.0" y="54" width="250" height="14"/>
+                                            <fontDescription key="fontDescription" name="Geomanist-Light" family="Geomanist" pointSize="13"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Winners will be announced weekly." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuD-Ms-FNe">
+                                            <rect key="frame" x="0.0" y="90" width="250" height="14"/>
+                                            <fontDescription key="fontDescription" name="Geomanist-Book" family="Geomanist" pointSize="13"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.0" green="0.56862745100000001" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="304" id="f84-5P-dVT"/>
+                                <constraint firstAttribute="width" constant="268" id="tDj-6O-RJK"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_circle_rules" translatesAutoresizingMaskIntoConstraints="NO" id="keX-xq-rtM">
+                            <rect key="frame" x="122" y="398" width="76" height="76"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="76" id="Gci-mg-9dZ"/>
+                                <constraint firstAttribute="height" constant="76" id="NZZ-hE-74Z"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_contestconditions" translatesAutoresizingMaskIntoConstraints="NO" id="UMK-dX-JLX">
+                            <rect key="frame" x="137" y="413" width="46" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="0IQ-NC-5gD"/>
+                                <constraint firstAttribute="height" constant="46" id="qax-0q-EaL"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="keX-xq-rtM" firstAttribute="centerY" secondItem="uE7-w5-daT" secondAttribute="centerY" constant="152" id="3UZ-bu-4Mk"/>
+                        <constraint firstAttribute="centerY" secondItem="uE7-w5-daT" secondAttribute="centerY" id="7Gk-6Y-8B8"/>
+                        <constraint firstAttribute="centerY" secondItem="jc1-Oy-Hav" secondAttribute="centerY" id="AOL-Uu-lG8"/>
+                        <constraint firstAttribute="centerX" secondItem="uE7-w5-daT" secondAttribute="centerX" id="Bsk-Ga-3cF"/>
+                        <constraint firstItem="keX-xq-rtM" firstAttribute="centerX" secondItem="UMK-dX-JLX" secondAttribute="centerX" id="LDz-Rn-Lqn"/>
+                        <constraint firstItem="keX-xq-rtM" firstAttribute="centerX" secondItem="uE7-w5-daT" secondAttribute="centerX" id="UsE-qT-OiD"/>
+                        <constraint firstItem="keX-xq-rtM" firstAttribute="centerY" secondItem="UMK-dX-JLX" secondAttribute="centerY" id="kSP-zq-VZH"/>
+                        <constraint firstAttribute="centerX" secondItem="jc1-Oy-Hav" secondAttribute="centerX" id="paf-N2-fcn"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AIK-U0-Fxc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1Ny-EW-NO2"/>
+                <constraint firstItem="AIK-U0-Fxc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="AbE-32-MNH"/>
+                <constraint firstAttribute="bottom" secondItem="AIK-U0-Fxc" secondAttribute="bottom" id="cme-J5-5nq"/>
+                <constraint firstAttribute="trailing" secondItem="AIK-U0-Fxc" secondAttribute="trailing" id="uxd-b8-XtY"/>
+            </constraints>
+            <point key="canvasLocation" x="498" y="320"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_circle_rules" width="76" height="76"/>
+        <image name="home_contestconditions" width="47" height="47"/>
+    </resources>
+</document>

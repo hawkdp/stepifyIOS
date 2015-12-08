@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings
+  NSBE
+
+  Created by Iulian Corcoja on 1/23/15.
+  Copyright (c) 2015 Adelante Consulting Inc. All rights reserved.
+*/
+
+"AppName" = "NSBE";
+
+// Default expressions
+"Ok" = "OK";
+"Yes" = "Yes";
+"No" = "No";
+"Cancel" = "Cancel";
+"Success" = "Success!";
+
+// Intro view controller
+"EnterPassword" = "Please enter NSBE Step Challenge password.";
+"RetryEnterPassword" = "Entered password is incorrect. Please try again.";
+
+// Login view controller messages
+"FacebookAccessNotGranted" = "Stepify is not allowed to use Facebook. You can grant access to Stepify from Facebook web page.";
+"FacebookLoginError" = "An error occurred while trying to sign-up with Facebook. Please try again later.";
+
+// Action sheet photo opetions
+"ChooseFromLibrary" = "Choose from library";
+"TakePicture" = "Take a picture";
+"DeletePicture" = "Delete the picture";
+
+// Register view controller messages
+"Registering" = "Registering...";
+"SigningIn" = "Signing In...";
+"CompleteAllFields" = "Please complete all the fields below.";
+"CompletePhoneNumberDigits" = "Phone number is incorrect. Please re-enter a valid 10 digit phone number.";
+"InvalidEmail" = "Please enter a valid email address.";
+
+// Home view controller messages
+"MakeSureStepsAreSynced" = "Please make sure you have synced your steps.";
+"MakeSureStepsAreSyncedTitle" = "Sync your steps";
+"MakeSureStepsAreSyncedLong" = "You have not added any steps today. Please make sure you have synced your steps with the %@.";
+"FitbitApp" = "Fitbit";
+"JawboneApp" = "Jawbone";
+"HealthApp" = "Health application";
+
+// Leaderboard view controller messages
+"LeaderboardRetrieveError" = "An error occurred while retrieving leaderboard. Please try again later.";
+"LeaderboardCellNoNameParticipant" = "No Name Participant";
+
+// Notification messages
+"NotificationSyncing" = "Syncing your steps...";
+"NotificationSyncSuccess" = "Steps successfully synced at %@";
+"NotificationSyncFailure" = "Failed to sync steps at %@";
+"NotificationStepsLogged" = "Great job! You just logged %@ steps!";
+"NotificationRankPosition" = "You placed %@ in the Day %td challenge";
+"NotificationDayWon" = "Congrats! You've won the Day %td challenge!";
+"NotificationRemindSyncSteps" = "Don't forget to sync your steps for today!";
+"NotificationRemindSyncStepsSlideTitle" = "sync";
+"NotificationRemindCheckWinner" = "Check the winner for NSBE Step Challenge day %td!";
+
+// Question message strings
+"ConfirmDeviceSelection" = "Are you sure you want to use this device to track your steps for the Challenge? You will not be able to change your device after you sign-up.";
+
+// Warning message strings
+"NoDeviceTitle" = "No device and no iPhone 5?";
+"NoDeviceMessage" = "Unfortunately, you will not be\nable to participate in this year's\nchallenge.";
+
+// Warning message string
+"EnterUserDigitLimit" = "Name text field cannot exceed 26 characters.";
+"EnterEmailDigitLimit" = "Email text field cannot exceed 26 characters.";
+"EnterPhoneNumberDigitLimit" = "Please enter a 10 digit phone number.";
+
+// Error message strings
+"NotANumber" = "NaN";
+"AuthorizationDenied" = "Authorization was denied or the user cancelled authorization process.";
+"UnknownStatusCode" = "Unknown HTTP status code";
+"AccessTokenNotProvided" = "Access token address is not provided.";
+"OAuthAccessTokenNotProvided" = "OAuth access token address is not provided.";
+"TokensDoNotCorrespond" = "Received token does not correpond to access token.";
+"IncorrectDataType" = "Data format is incorrect or corrupted";
+"EmailNotProvided" = "Email address is not provided.";
+"StartEndDateNotProvided" = "Start or end date are not provided.";
+"FrameworkNotProvided" = "Framework is not provided. Choose HealthKit, Fitbit or Jawbone.";
+"ImageURLNotProvided" = "Image URL is not provided.";
+"ProfilePictureURLNotProvided" = "Profile picture URL is not provided.";
+"ChallengeStartDateNotProvided" = "Challenge start date is not provided.";
+"ChallengeStartDateYetToCome" = "Step challenge did not start yet. Steps synchronization was cancelled.";
+"UserAlreadyExists" = "A user with the provided email already exists!";
+"HealthDataNotAvailable" = "An error occurred while retrieving steps.";
+"ErrorRetrievingSteps" = "An error occurred while retrieving steps.";
+"UnknownError" = "An unknown error has occurred.";
+
